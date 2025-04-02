@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Shopping cart</title>
+        <script src="cart.js"></script>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Shopping cart</h1>
+        </header>
+        <main>
+            <section id = "products">
+                <div class = "product">
+                    <span>Product 1</span>
+                    <button onclick = "addToCart('Product 1',10)">Add to Cart</button>
+                </div>
+                <div class = "product ">
+                    <span>Product 2</span>
+                    <button onclick = "addToCart('Product 2',20)">Add to Cart</button>
+                </div>
+                <div class = "product">
+                    <span>Product 3</span>
+                    <button onclick = "addToCart('Product 3',30)">Add to Cart</button>
+                </div>
+            </section>
+            <section id = "cart">
+                <h2>Cart</h2>
+                <ul id="cartItems"></ul>
+                <p id = "toatalPrices"></p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Shopping Cart. All right reserved.</p>
+        </footer>
+    </body>
+</html>
+
+
